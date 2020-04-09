@@ -1,13 +1,13 @@
-### ENPM673 Project 1 -
-AR Tag Detection | Homography | Warping | Projection
+# ENPM673 Project 1 -
+AR Tag Detection | Homography | Warping | Lena Superimpose | Virtual Cube Projection
 
 ## Authors
-Prasheel Renkuntla- 116925570
-Raj Prakash Shinde- 116852104
-Shubham Sonawane- 116808996
+* Prasheel Renkuntla- 116925570
+* Raj Prakash Shinde- 116852104
+* Shubham Sonawane- 116808996
  
 ## Description
-The project demonstrates AR Tag Detection, Homography and Warping to superimpose Lena image on the Tag. 
+The project demonstrates AR Tag Detection, Homography and Warping to superimpose Lena image on the Tag.  Also, it projects a virtual cube on top of the tag.
 
 ## Dependencies
 * Ubuntu 16
