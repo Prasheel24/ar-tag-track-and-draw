@@ -2,9 +2,9 @@
 AR Tag Detection | Homography | Warping | Lena Superimpose | Virtual Cube Projection
 
 ## Authors
-* Prasheel Renkuntla- 116925570
-* Raj Prakash Shinde- 116852104
-* Shubham Sonawane- 116808996
+* Prasheel Renkuntla
+* Raj Prakash Shinde
+* Shubham Sonawane
  
 ## Description
 The project demonstrates AR Tag Detection, Homography and Warping to superimpose Lena image on the Tag.  Also, it projects a virtual cube on top of the tag.
