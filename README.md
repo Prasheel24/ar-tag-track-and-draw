@@ -7,7 +7,7 @@ AR Tag Detection | Homography | Warping | Lena Superimpose | Virtual Cube Projec
 * Shubham Sonawane
  
 ## Description
-The project demonstrates AR Tag Detection, Homography and Warping to superimpose Lena image on the Tag.  Also, it projects a virtual cube on top of the tag.
+The project demonstrates AR Tag Detection, Homography and Warping to superimpose Lena image on the Tag.  Also, we project a virtual cube on top of the tag.
 
 ## Dependencies
 * Ubuntu 16
