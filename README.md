@@ -1,5 +1,5 @@
-# ENPM673 Project 1 -
-AR Tag Detection | Homography | Warping | Lena Superimpose | Virtual Cube Projection
+# AR Tag Detection and Virtual Cube Projection
+Homography | Warping | Lena Superimpose
 
 ## Authors
 * Prasheel Renkuntla
@@ -7,7 +7,16 @@ AR Tag Detection | Homography | Warping | Lena Superimpose | Virtual Cube Projec
 * Shubham Sonawane
  
 ## Description
-The project demonstrates AR Tag Detection, Homography and Warping to superimpose Lena image on the Tag.  Also, we project a virtual cube on top of the tag.
+The project demonstrates AR Tag Detection, Homography and Warping.
+A tag looks like below-
+<p align="center">
+<h5>Tag 0</h5>
+<img src="/Code/ref_marker.png" width="70%">
+</p>
+
+
+Then Lena's image is superimposed on the Tag. Also, we project a virtual cube on top of the tag.
+
 
 ## Dependencies
 * Ubuntu 16
@@ -19,6 +28,8 @@ The project demonstrates AR Tag Detection, Homography and Warping to superimpose
 * argparse
 
 ## Run
+First please change to the Code directory.
+
 To run the detection, lena super impose and to draw a cube on a video with single tag -
 
 ```
@@ -38,7 +49,35 @@ Options for "func" argument -
 * 3 - to draw a virtual cube on top of the tag
 
 Input 1 or 0 in the command window (when prompted) to save into a video file
- 
+
+## Demo
+The tag detected after processing with different filters is given below-
+<p align="center">
+<h5>Tag 0</h5>
+<img src="/output/tag_0.png" width="70%">
+</p>
+
+Post processing this image, it is parsed to find the corresponding tag id (binary representation) and orientation, as given below-
+<p align="center">
+<h5>Terminal output for detection</h5>
+<img src="/output/tagid_detect.png" width="70%">
+</p>
+
+After this detection, Lena is superimposed according to the orientation as found from before-
+<p align="center">
+<h5>Lena superimpose</h5>
+<img src="/output/lena_tag0.png" width="70%">
+</p>
+
+Finally, we use the projection matrix to draw virtual cubes on top of these modified tags-
+<p align="center">
+<h5>Multiple tags with Cube projection</h5>
+<img src="/output/multi_tag_cubes.png" width="70%">
+</p>
+
+The output folder contains results from detection of single tag only due to size restrictions.
+
+
 ## Reference
 * https://github.com/hughesj919/HomographyEstimation/blob/master/Homography.py
 * https://www.owlnet.rice.edu/~elec539/Projects97/morphjrks/warpsri.html
